@@ -13,7 +13,7 @@ const DATABASE_URI = process.env.CONNECTION_URI;
 
 // console.log(DATABASE_URI)
 
-app.use(express.json({ limit: "30mb", entended: true }));
+app.use(express.json({ limit: "30mb", extended: true })); //error
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
 app.use(cors());
 
