@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "ls -la node_modules/express/lib/router/index"
+  
   },
   "engines": {
     "node": "20.x"
